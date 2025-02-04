@@ -4,12 +4,27 @@
 
 ### Truth Table
 
-Insert your truth table here
+| A | B | C | D | Y |
+|---|---|---|---|--:|
+| 0 | 0 | 0 | 0 | x |
+| 0 | 0 | 0 | 1 | 1 |
+| 0 | 0 | 1 | 0 | 0 |
+| 0 | 0 | 1 | 1 | 1 |
+| 0 | 1 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 1 | 1 |
+| 0 | 1 | 1 | 0 | 0 |
+| 0 | 1 | 1 | 1 | 1 |
+| 1 | 0 | 0 | 0 | 1 |
+| 1 | 0 | 0 | 1 | 0 |
+| 1 | 0 | 1 | 0 | 1 |
+| 1 | 0 | 1 | 1 | 0 |
+| 1 | 1 | 0 | 0 | 1 |
 
 ### Boolean Equation
 
 $$
-Y = ?
+Y = ABC'D'+AB'CD+A'B'C'D+A'BC'D+A'B'CD+A'BCD+AB'CD'
+Y = AB'+A'D
 $$
 
 ### Digital Simulations
