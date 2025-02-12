@@ -24,3 +24,8 @@ Then it **elaborates** `thirtyOneDayMonth_tb` entity.
 Finally, the workflow **runs** the simulation. If successful then it will quietly exit with a `0` code.
 If any of the `assert` statements fail then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels will be reported, but not fail the workflow.
+## Doc statement
+
+Recieved help from chat GPT when grammer correcting the lab report. recived help from cadet wong on the VHDL code as initally I over
+thought the entire process when all that was needed was the implemntation of the Boolean equation as well as a refresher in setting 
+up the Basys Board
